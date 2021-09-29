@@ -75,7 +75,7 @@ public void TestReadWithNoArgument() {
 	OfficerController of = new OfficerController();
 	try {
 	    of.ReadOfficer(id);
-		assertTrue(false); //fail test when object is null
+		assertTrue(false); //fail test when there is no argument
 		System.out.println("Officer object is null");
 		
 	}catch(Exception e) {

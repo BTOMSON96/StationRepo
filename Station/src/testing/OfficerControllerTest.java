@@ -46,7 +46,7 @@ public void TestCreateOfficerWithNullObject() {
 	try {
 		of.CreateOfficer(officer);
 		assertTrue(false); //fail test when object is null
-		System.out.println("Officer object is null");
+		
 		
 	}catch(Exception e) {
 		e.printStackTrace();
@@ -77,7 +77,7 @@ public void TestReadWithNoArgument() {
 	try {
 	    of.ReadOfficer(Id);
 		assertTrue(false); //fail test when there is no argument
-		System.out.println("Officer object is null");
+		
 		
 	}catch(Exception e) {
 		e.printStackTrace();
